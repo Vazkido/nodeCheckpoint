@@ -7,3 +7,5 @@ http.createServer (function(req, res){
     
     const newPass = res.end("Hello World/n");
 }).listen(3000)
+
+console.log("Server is running at port 3000");

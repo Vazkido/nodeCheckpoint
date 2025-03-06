@@ -1,6 +1,6 @@
 // Creating a server that runs on port 3000 to print "HELLO WORLD"
 
-const http = require('http');
+import http from ('http');
 
 http.createServer (function(req, res){
     res.writeHead(200, {"Content-Type": "text/plain"});

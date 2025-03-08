@@ -1,3 +1,4 @@
 const fs = require('fs');
 
-let txtIn = fs.readFileSync('./hello.txt',)
+let txtIn = fs.readFileSync('./hello.txt',).toString();
+
